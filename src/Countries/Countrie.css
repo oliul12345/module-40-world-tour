@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+   
+}
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.visited{
+    background-color: rgb(15, 190, 190);
+}
+.non-visited{
+    background-color: white;
+}
+.flag-container img{
+    width: 56px;
+    height: 56px;
+}
